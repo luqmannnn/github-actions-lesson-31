@@ -17,3 +17,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: echo "🏷️ The workflow is named '${{ github.workflow }}'."
+      - run: echo "✅ The workflow has run ${{ github.run_attempt }} time(s) for this event."
